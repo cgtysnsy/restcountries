@@ -154,3 +154,32 @@ option {
 .country b {
   font-weight: 600;
 }
+
+@media (max-width: 375px) {
+  .header {
+    padding: 20px 10px 20px 10px;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding-left: 10px;
+  }
+  .filter {
+    margin-top: 20px;
+  }
+  .flagup,
+  .flagdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .country {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+}
